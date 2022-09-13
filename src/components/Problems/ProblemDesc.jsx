@@ -4,7 +4,6 @@ export default function ProblemDesc(props){
     let problemLink = props.link;
     let name = props.name;
     let id = props.id;
-    console.log(problemLink);
     let newProblemArray = [];
     let problemArray = JSON.parse(localStorage.getItem("ProblemSaver"));
 
