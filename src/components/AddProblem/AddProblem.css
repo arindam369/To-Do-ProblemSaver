@@ -1,0 +1,41 @@
+.form-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 80%;
+    padding: 14px;
+    background-color: rgb(147, 147, 147);
+    border-radius: 8px;
+}
+.form-container form input{
+    width: 300px;
+    margin: 5px 10px;
+    padding: 6px 14px;
+}
+.form-container form button{
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .85rem;
+}
+@media (min-width: 585px) and (max-width:900px){
+    .form-container form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 470px){
+    .form-container form input{
+        width: 230px;
+        margin: 5px 10px;
+        padding: 6px 14px;
+    }
+}

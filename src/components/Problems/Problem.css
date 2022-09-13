@@ -1,0 +1,56 @@
+.problems-page{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.problems-container{
+    border: 1px solid white;
+    margin-top: 40px;
+    width: 80%;
+    padding: 14px;
+    border-radius: 8px;
+    /* background-color: rgb(147, 147, 147); */
+}
+
+.problem-head{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+.problem-desc{
+    padding: 12px 30px;
+    /* border: 1px solid red; */
+}
+.problem-desc img{
+    position: absolute;
+}
+.problem-desc a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.problem-desc a:hover{
+    color: aqua;
+}
+.problem-desc button{
+    background-color: #DC3545;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    border: 0px;
+    padding: 4px 16px;
+    font-size: .7rem;
+    cursor: pointer;
+}
+.problem-desc button:hover{
+    background-color: #94111e;
+}
+.no-problem-text{
+    text-align: center;
+    color: rgb(197, 197, 197);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 1.2rem; */
+}
