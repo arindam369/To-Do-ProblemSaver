@@ -13,12 +13,13 @@
     /* background-color: rgb(147, 147, 147); */
 }
 
+
 .problem-head{
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
-    margin-bottom: 50px;
+    margin-bottom: 4px;
 }
 .problem-desc{
     padding: 12px 30px;
@@ -53,4 +54,26 @@
     color: rgb(197, 197, 197);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* font-size: 1.2rem; */
+}
+.search-bar{
+    /* border: 1px solid red; */
+    margin-bottom: 80px;
+    width: 98%;
+}
+.search-box{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input{
+    padding: 6px 10px;
+    font-size: .76rem;
+}
+.search-box img{
+    height: 15px;
+}
+.search-box button{
+    padding: 4px 5px;
+    cursor: pointer;
 }

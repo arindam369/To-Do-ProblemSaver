@@ -23,6 +23,7 @@
     border: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: .85rem;
+    cursor: pointer;
 }
 @media (min-width: 585px) and (max-width:900px){
     .form-container form{
