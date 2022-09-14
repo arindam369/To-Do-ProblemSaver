@@ -1,5 +1,5 @@
 # To-Do ProblemSaver
-This is a Problem-Saving React based web application where Coders can save their coding problems for future.
+This is a Problem-Saving React based web application where Coders can save their coding problems for future. There is also a search-bar where you can search a problem that is saved before. No database is used, it will store all data in Browser's LocalStorage. So, be careful at the time of deleting Browser's History xD.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
